@@ -25,13 +25,13 @@ layout: default
                         </a>
                     </h2>
                     <p class="post-meta">
-                        Posted:
+                        Postado:
                         {{ post.date | date: date_format }}
                         |
                         <br class="sm-display"/>
-                        By
+                        Por
                         <a class="post-author" href="#">{{ post.author }}</a>
-                        under
+                        sob
                         <span>
                             {% for tag in post.tags %}
                                 <a href="/tags/#{{ tag }}">#{{ tag }}</a>

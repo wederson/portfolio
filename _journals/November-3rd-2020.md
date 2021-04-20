@@ -1,6 +1,6 @@
 ---
 title: "November 3rd, 2020"
-author: Brennan K. Brown
+author: Wederson S. Machado
 ---
 
 Quite a red-letter day for my neighbours south of the border. I would be lying if I said I wasn't anxious for tonight, so I better finish this weekly review as early as possible :^)
