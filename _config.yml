@@ -22,7 +22,7 @@ title: "Wederson S. Machado"
 email: machado.wederson@gmail.com
 description: Portfólio, code e blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://wedersonm.dev" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://wederson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: wederson/portfolio
 twitter: wedersonm
 github: wederson
