@@ -10,12 +10,11 @@ category:
   - Outras
 ---
 
-
-Quando começamos a estudar linguagem de programação o primeiro bloco de código que todo desenvolvedor vê é o famoso `hello world`. Não poderia começar esse blog sem isso!
-
 {% highlight javascript %}
 console.log('Hello World!')
 {% endhighlight %}
+
+Quando começamos a estudar linguagem de programação o primeiro bloco de código que todo desenvolvedor vê é o famoso `hello world`. Não poderia começar esse blog sem isso!
 
 Esse espaço será usado para falar sobre meu dia a dia no trabalho e também sobre os meus estudos. Teremos muita coisa sobre programação, gerenciamento de projetos, gerenciamento de equipes e metodologia ágel. 
 

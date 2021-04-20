@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Organized by Category
-permalink: /categories/
+permalink: /categorias/
 content-type: eg
 ---
 

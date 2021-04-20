@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About the Purelog Theme
-permalink: /about/
+permalink: /sobre/
 ---
 
 **Purelog** is a responsive, sidebar theme for the popular JAMstack generator Jekyll that only uses the minimal [**Pure.css** framework](https://github.com/pure-css/pure) (hence the name!), while still following the best practices possible for accessibility and search-engine optimization.
