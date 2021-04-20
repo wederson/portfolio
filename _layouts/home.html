@@ -62,24 +62,24 @@ layout: default
                 {%- if paginator.previous_page %}
                     <li class="pure-menu-item">
                         <a href="{{ paginator.previous_page_path | relative_url }}">
-                            🡐
-                                            Previous</a>
+                            <<
+                                            Anterior</a>
                     </li>
                 {%- else %}
                     <li class="pure-menu-item">#</li>
                 {%- endif %}
 
                 <li class="pure-menu-item" id="current-page">
-                    Page
+                    Página
                     {{ paginator.page }}
-                    of
+                    de
                     {{ paginator.total_pages }}
                 </li>
 
                 {%- if paginator.next_page %}
                     <li class="pure-menu-item">
-                        <a href="{{ paginator.next_page_path | relative_url }}" class="next-page">Next
-                                            🡒
+                        <a href="{{ paginator.next_page_path | relative_url }}" class="next-page">Próximo
+                                            >>
                         </a>
                     </li>
                 {%- else %}
