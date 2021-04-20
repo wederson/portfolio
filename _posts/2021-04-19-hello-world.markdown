@@ -5,7 +5,7 @@ date: 2021-04-19
 tags:
   - todos
 author: Wederson S. Machado
-avatar: assets/profile.png
+avatar: ../assets/profile.png
 category: 
   - Outras
 ---
