@@ -121,4 +121,4 @@ E quando estamos começando queremos logo ver tudo funcionando. Tenham paciênci
 
 E aí, o que achou desse post?
 
-Espero que tenha curtido! 💜
+Espero que tenha curtido!
