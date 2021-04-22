@@ -30,8 +30,7 @@ Para aqueles que não sabem, um Loop de repetição nada mais é do que um bloco
 
 No exemplo acima, definimos um ponto de partida para o nosso loop *(var i = 0)*, uma condição para o loop ser executado *(i < 4)*, e o que acontece a cada final de chamada *(i++)*.
 
-Em um loop de repetição simples onde sabemos exatamente quantas interações irão existir não é preciso pensar em performance. Mas e quando não sabemos o número total de repetições e precisamos automatizar?
-
+Em um loop de repetição simples onde sabemos exatamente quantas interações irão existir não é preciso pensar em performace. Mas e quando não sabemos o número total de repetições e precisamos automatizar?
 
 ### Exemplo 2
 
