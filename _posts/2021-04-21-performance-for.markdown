@@ -32,7 +32,6 @@ No exemplo acima, definimos um ponto de partida para o nosso loop *(var i = 0)*,
 
 Em um loop de repetição simples onde sabemos exatamente quantas interações irão existir não é preciso pensar em performance. Mas e quando não sabemos o número total de repetições e precisamos automatizar?
 
-
 ### Exemplo 2
 
 ``` javascript
