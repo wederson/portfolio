@@ -63,7 +63,7 @@ Vamos utilizar o Exemplo 2 para verificar quanto tempo demora a sua execução
   }
   console.timeEnd()
 
-  // default: 0.8408203125 ms
+  // default: 1.14 ms
 ```
 
 A média de performance desse loop é por volta de 1.14 millesegundos (para descobrir a média, execute várias vezes o código acima).
