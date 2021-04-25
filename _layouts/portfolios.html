@@ -1,0 +1,58 @@
+---
+layout: default
+---
+{{ content }}
+
+{% assign portfolios = site.portfolios %}
+
+<div class="journals portfolio">
+    <h2 class="content-subhead">Portfolio</h2>
+
+    {%- if portfolios.size > 0 -%}
+    {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
+    <section class="">
+    {%- for job in portfolios -%}
+    <article class="journal pure-g">
+        <header class="journal-header pure-u-1-3">
+            <h2 class="post-title">
+                <a href="{{ job.url | relative_url }}">
+                    {{ job.title | escape }}
+                </a>
+            </h2>
+            <a href="{{ job.url | relative_url }}">
+                <img src="{{ job.logo}}" alt=" {{ job.title | escape }}" width="120" heoght="120">
+            </a>
+        </header>
+
+        <div class="job-description pure-u-2-3">
+            {% if job.tags %}
+            <div class="portfolio-tags">
+                <h3>Tecnologias Utilizadas</h3>
+                {% for tag in job.tags %}
+                    <i class="icon-{{tag}}" title="{{tag}}"></i>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            <div class="post-description">
+                <p class="md-display">
+                    <em>{{ job.content | strip_html | escape | truncate: 200}}</em>
+                </p>
+                <p class="sm-display">
+                    <em>{{ job.content | strip_html | escape | truncate: 100}}</em>
+                </p>
+                <a class="pure-button pure-button-primary" href="{{ job.url | relative_url }}">
+                    Veja mais
+                </a>
+            </div>
+        </div>
+    </article>
+    <hr>
+    {%- endfor -%}
+</section>
+</div>
+
+
+<br />
+
+{%- endif -%}

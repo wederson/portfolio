@@ -173,7 +173,7 @@ footer .pure-menu-link:hover {
   margin-right: 5px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  font-size: 85%;
+  font-size: 80%;
 }
 
 .nav-item a:hover,
@@ -282,6 +282,46 @@ footer .pure-menu-link:hover {
   max-width: 70%;
 }
 
+.portfolio .post-description {
+  margin-top: 0;
+}
+
+.portfolio-tags i {
+  font-size: 40px;
+  color: #222;
+}
+.portfolio h2,
+.portfolio h3 {
+  margin: 0 0 5px;
+}
+.portfolio h2 {
+  font-size: 1.2em;
+}
+.portfolio h3 {
+  font-size: 0.9em;
+}
+h3.job-title {
+  color: #222;
+  margin-bottom: 0.2em;
+}
+
+.job-entry .portfolio-tags i ~ i {
+  margin: 0 5px;
+}
+
+dl, dt, dd {
+  color: #222;
+  padding: 0;
+  margin: 0;
+}
+
+dt ~ dt {
+  margin-top: 20px;
+}
+
+dt {
+  font-weight: bold;
+}
 .post-description {
   color: black;
   line-height: 1.8em;

@@ -67,7 +67,13 @@ defaults:
     values:
       layout: "post"
       author: Wederson S. Machado
-      avatar: assets/profile-sm.png
+      avatar: assets/profile.png
+  - scope:
+      path: ""
+      type: portfolios
+    values:
+      layout: portfolio
+      content-type: portfolios
 
 # Allows all pages to be put into `_pages` folder
 # for easier navigation and better SEO.
@@ -75,6 +81,9 @@ collections:
   pages:
     output: true
     permalink: /:title
+  portfolios:
+    output: true
+    permalink: /portfolio/:title
 
 # Exclude from processing.
 exclude:

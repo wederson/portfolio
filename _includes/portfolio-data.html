@@ -1,0 +1,36 @@
+
+<h3 class="job-title"><u> Informações do Projeto:</u></h3>
+<dl>
+    {%- if page.employer -%}
+    <dt class="portfolio-employer">Empregador: </dt>    
+    <dd>{{page.employer}}</dd>
+    {%- endif -%}
+
+    {%- if page.position -%}
+    <dt class="portfolio-position">Cargo: </dt>    
+    <dd>{{page.position}}</dd>
+    {%- endif -%}
+
+    {%- if page.urlEcommerce -%}
+    <dt class="portfolio-urlEcommerce">Cargo: </dt>    
+    <dd><a href="{{page.urlEcommerce}}" target="_blank">{{page.urlEcommerce}}</a></dd>
+    {%- endif -%}
+
+    {%- if page.category -%}
+    <dt class="portfolio-category">Tipo de Projeto: </dt> 
+    <dd>
+        {%- for cat in page.category -%}
+            {{cat}}
+        {%- endfor -%}
+    </dd>
+    {%- endif -%}
+
+    {%- if page.tags -%}
+    <dt>Tecnologias Utilizadas</dt>
+    <dd class="portfolio-tags">    
+        {%- for tag in page.tags -%}
+                <i class="icon-{{tag}}" title="{{tag}}"></i>
+        {%- endfor -%}
+    </dd>
+    {%- endif -%}
+</dl>
