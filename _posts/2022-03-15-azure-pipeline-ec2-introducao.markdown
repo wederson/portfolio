@@ -19,7 +19,7 @@ Nesse artigo vamos detalhar os passos necessários para criar uma entrega contí
 
 Iremos dividir este guia em 4 etapas:
 1. [Parte 1: Azure DevOps + EC2 - Introdução](/azure-pipeline-ec2-introducao)
-2. [Parte 2: Azure DevOps - Definição de Build e Build Artefato](azure-pipeline-ec2-build-artifact)
+2. [Parte 2: Azure DevOps - Definição de Build e Artefato](azure-pipeline-ec2-build-artifact)
 3. Parte 3: Azure DevOps - Deployment Group
 4. Parte 4: Azure DevOps - Criando Release
 
