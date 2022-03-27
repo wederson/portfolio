@@ -49,7 +49,7 @@ paginate_path: "/:num/"
 markdown: CommonMarkGhPages
 
 commonmark:
-  options: ["SMART", "FOOTNOTES"]
+  options: ["SMART", "FOOTNOTES", "UNSAFE"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 
 # Build settings
