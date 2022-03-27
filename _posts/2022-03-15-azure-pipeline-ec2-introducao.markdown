@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Parte 1: Azure DevOps + EC2 - Introdução"
-date: 2022-03-15
+date: 2022-03-15 12:00:00
 tags:
   - todos
   - azure DevOps
@@ -18,8 +18,8 @@ category:
 Nesse artigo vamos detalhar os passos necessários para criar uma entrega contínua com o Azure DevOps e servidores EC2 da AWS.
 
 Iremos dividir este guia em 4 etapas:
-1. [Parte 1: Azure DevOps + EC2 - Introdução](/azure-pipeline-ec2)
-2. Parte 2: Azure DevOps - Definição de Build e Build Artefato
+1. [Parte 1: Azure DevOps + EC2 - Introdução](/azure-pipeline-ec2-introducao)
+2. [Parte 2: Azure DevOps - Definição de Build e Build Artefato](azure-pipeline-ec2-build-artifact)
 3. Parte 3: Azure DevOps - Deployment Group
 4. Parte 4: Azure DevOps - Criando Release
 
