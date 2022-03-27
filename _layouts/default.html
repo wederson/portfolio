@@ -5,6 +5,9 @@
 
 <body>
 
+    {%- if site.google_tagmanager -%}
+    {%- include google_tagmanager-body.html -%}
+    {%- endif -%}
     <div id="layout" class="pure-g">
 
         {%- include sidebar.html -%}
