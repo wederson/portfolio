@@ -32,11 +32,11 @@ layout: default
                         Por
                         <a class="post-author" href="#">{{ post.author }}</a>
                         sob
-                        <span>
-                            {% for tag in post.tags %}
-                                <a href="/tags/#{{ tag }}">#{{ tag }}</a>
-                            {% endfor %}
-                        </span>
+
+                            {%- for tag in post.tags -%}
+                            <span> <a href="/tags/#{{ tag }}">#{{ tag }}</a></span>
+                            {%- endfor -%}
+
                     </p>
                 </header>
 

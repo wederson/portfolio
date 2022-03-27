@@ -396,7 +396,7 @@ dt {
   }
 
   .tags {
-    width: 30%;
+    width: 50%;
   }
 
   footer .pure-menu-link {
@@ -426,7 +426,7 @@ dt {
   }
 
   .tags {
-    width: 49%;
+    width: 100%;
   }
 
   .journals {
@@ -559,4 +559,17 @@ footer ul {
 
 .search-icon {
   font-size: 24px;
+}
+
+/* Cartegory Page */
+
+
+.category-content a {
+  text-decoration: none;
+  color: #4183c4;
+}
+
+.category-content a:hover {
+  text-decoration: underline;
+  color: #4183c4;
 }

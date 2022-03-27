@@ -12,11 +12,11 @@
     {%- endif -%}
     &#8239;
     {%- if page.author -%}
-    {% for author in page.author %}
+    {%- for author in page.author -%}
     <span itemprop="author" itemscope itemtype="http://schema.org/Person">
         <span itemprop="name">Por: {{ author }}</span></span>
     {%- if forloop.last == false %}, {% endif -%}
-    {% endfor %}
+    {%- endfor -%}
     {%- endif -%}
     &#8239;|&#8239;
     {%- for tag in page.tags -%}

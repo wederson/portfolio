@@ -28,9 +28,9 @@ layout: default
             {% if job.tags %}
             <div class="portfolio-tags">
                 <h3>Tecnologias Utilizadas</h3>
-                {% for tag in job.tags %}
+                {%- for tag in job.tags -%}
                     <i class="icon-{{tag}}" title="{{tag}}"></i>
-                {% endfor %}
+                {%- endfor -%}
             </div>
             {% endif %}
 
