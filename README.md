@@ -37,5 +37,6 @@ Como thema, estou utilizando o projeto [Purelog](https://github.com/brennanbrown
 ## Rodando local
 
 ```bash
-jekyll serve
+bundle install
+bundle exec jekyll serve
 ```
