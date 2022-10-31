@@ -39,4 +39,5 @@ Como thema, estou utilizando o projeto [Purelog](https://github.com/brennanbrown
 ```bash
 bundle install
 bundle exec jekyll serve
+bundle exec jekyll serve --drafts
 ```
