@@ -16,7 +16,7 @@ console.log('Hello World!')
 
 Quando começamos a estudar linguagem de programação o primeiro bloco de código que todo desenvolvedor vê é o famoso `hello world`. Não poderia começar esse blog sem isso!
 
-Esse espaço será usado para falar sobre meu dia a dia no trabalho e também sobre os meus estudos. Teremos muita coisa sobre programação, gerenciamento de projetos, gerenciamento de equipes e metodologia ágel.
+Esse espaço será usado para falar sobre meu dia a dia no trabalho e também sobre os meus estudos. Teremos muita coisa sobre programação, gerenciamento de projetos, gerenciamento de equipes, metodologia ágel, produtos, dados e inteligencia artificial.
 
 Esse post é bem curtinho mas deixarei alguns links para aqueles que estão começando a estudar javascript.
 
